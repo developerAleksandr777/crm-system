@@ -1,0 +1,15 @@
+.sidebar {
+    width: var(--width-sidebar);
+    height: 100vh;
+    overflow-y: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-shadow: 2px 0 5px var(--box-shadow);
+    text-align: center;
+    padding: 20px;
+    color: var(--color);
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}

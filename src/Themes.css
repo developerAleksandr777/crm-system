@@ -1,0 +1,251 @@
+html[data-theme='dark'] {
+    --background-color: #04202C;
+    --color: #CAD1C9;
+    --box-shadow: #5A7064;
+    --hover-effect: #30403F;
+    --hover: #5D6865;
+}
+
+html[data-theme='light'] {
+    --background-color: #FEF2E4;
+    --color: #C60001;
+    --box-shadow: #C15805;
+    --hover-effect: #FD964F;
+    --hover: #9A4F0E;
+}
+
+.ant-pagination.ant-table-pagination.ant-table-pagination-right.css-dev-only-do-not-override-2i2tap {
+    background-color: var(--hover-effect);
+    border-radius: 5px;
+}
+
+:where(.css-dev-only-do-not-override-2i2tap) li:hover {
+    background-color: var(--hover);
+}
+
+.anticon.anticon-user.ant-menu-item-icon {
+    color: var(--color);
+}
+
+.ant-dropdown-trigger {
+    color: var(--color);
+}
+
+
+.ant-menu-item.ant-menu-item-selected {
+    background-color: var(--hover-effect);
+}
+
+.ant-menu-item.ant-menu-item-active:hover {
+    background-color: var(--hover);
+}
+
+.ant-menu.ant-menu-root.ant-menu-vertical.ant-menu-light.css-dev-only-do-not-override-2i2tap {
+    background-color: var(--background-color);
+}
+
+.anticon.anticon-check-circle.ant-menu-item-icon {
+    color: var(--color);
+}
+
+.ant-menu-title-content {
+    color: var(--color);
+}
+
+.ant-switch-handle::before {
+    background-color: var(--background-color);
+}
+
+.ant-input.css-dev-only-do-not-override-2i2tap {
+    outline-color: var(--outline-input);
+    background-color: var(--background-color);
+    color: var(--color);
+}
+
+.ant-input.css-dev-only-do-not-override-2i2tap::placeholder {
+    color: var(--color);
+}
+
+.ant-radio-group.ant-radio-group-outline.css-dev-only-do-not-override-2i2tap span {
+    color: var(--color);
+}
+
+:where(.css-dev-only-do-not-override-2i2tap).ant-modal .ant-modal-content {
+    background-color: var(--hover-effect);
+}
+
+.ant-modal-content {
+    background-color: var(--hover-effect);
+    color: var(--color);
+}
+
+.ant-modal-title {
+    background-color: var(--hover-effect);
+    color: var(--color);
+}
+
+.ant-collapse-content-box {
+    background-color: var(--hover-effect);
+}
+
+.ant-collapse-content.ant-collapse-content-active {
+    background-color: var(--hover-effect);
+
+}
+
+.ant-collapse-header-text {
+    color: var(--color);
+}
+
+.ant-collapse-content-box {
+    background-color: var(--background-color-link);
+}
+
+.ant-collapse-content-box span {
+    color: var(--color);
+}
+
+.ant-collapse-expand-icon {
+    color: var(--color);
+}
+
+:where(.css-dev-only-do-not-override-2i2tap).ant-modal .ant-modal-title {
+    color: var(--color);
+}
+
+.ant-table-body {
+    background-color: var(--background-color-link);
+
+}
+
+.ant-table-thead {
+    background-color: var(--hover-effect);
+}
+
+
+.ant-btn.css-dev-only-do-not-override-2i2tap.ant-btn-primary:hover {
+    background-color: var(--hover);
+}
+
+.ant-btn.css-dev-only-do-not-override-2i2tap.ant-btn-default {
+    background-color: var(--color);
+}
+
+.ant-btn.css-dev-only-do-not-override-2i2tap.ant-btn-primary {
+    background-color: var(--box-shadow);
+    color: var(--color);
+}
+
+:where(.css-dev-only-do-not-override-2i2tap).ant-table-wrapper .ant-table-thead>tr>th,
+:where(.css-dev-only-do-not-override-2i2tap).ant-table-wrapper .ant-table-thead>tr>td {
+    color: var(--color);
+    background: var(--hover-effect);
+}
+
+:where(.css-dev-only-do-not-override-2i2tap).ant-table-wrapper .ant-table-tbody>tr>th,
+:where(.css-dev-only-do-not-override-2i2tap).ant-table-wrapper .ant-table-tbody>tr>td {
+    color: var(--color);
+    background-color: var(--hover-effect);
+}
+
+.hoc_sideBarWrapperHoc__5BJUt h2 {
+    color: var(--color);
+}
+
+.table-image-antd {
+    background-color: var(--hover-effect);
+}
+
+.anticon.anticon-left {
+    color: var(--color);
+}
+
+.anticon.anticon-right {
+    color: var(--color);
+}
+
+.ant-pagination-item.ant-pagination-item-1.ant-pagination-item-active.ant-pagination-item-active {
+    border-color: var(--color);
+    background-color: var(--hover-effect);
+    color: var(--color);
+}
+
+.ant-pagination-item.ant-pagination-item-1.ant-pagination-item-active.ant-pagination-item-active a {
+    color: var(--color);
+}
+
+.ant-pagination-item.ant-pagination-item-active {
+    border-color: var(--color);
+    background-color: var(--hover-effect);
+    color: var(--color);
+}
+
+.ant-pagination.ant-table-pagination.ant-table-pagination-right.css-dev-only-do-not-override-2i2tap a {
+    color: var(--color);
+}
+
+.ant-pagination.ant-table-pagination.ant-table-pagination-right.css-dev-only-do-not-override-2i2tap li:hover {
+    background-color: var(--hover);
+}
+
+.ant-select-selection-item,
+:where(.css-dev-only-do-not-override-2i2tap).ant-select:not(.ant-select-customize-input) .ant-select-selector,
+.ant-select-dropdown.css-dev-only-do-not-override-2i2tap.ant-select-dropdown-placement-topLeft {
+    background-color: var(--hover-effect);
+    color: var(--color);
+}
+
+.ant-select-item.ant-select-item-option.ant-select-item-option-active.ant-select-item-option-selected,
+.ant-select-item.ant-select-item-option.ant-select-item-option-selected {
+    background-color: var(--hover);
+
+}
+
+:where(.css-dev-only-do-not-override-2i2tap).ant-select-dropdown .ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+    background-color: var(--color);
+}
+
+.ant-select-item-option-content {
+    color: var(--background-color);
+}
+
+:where(.css-dev-only-do-not-override-2i2tap).ant-table-wrapper .ant-table-tbody .ant-table-row>.ant-table-cell-row-hover {
+    background-color: var(--hover);
+}
+
+.ant-table-column-sorters.ant-tooltip-open,
+.ant-table-column-sorters.ant-tooltip-open::after {
+    background-color: var(--hover);
+    color: var(--color);
+}
+
+:where(.css-dev-only-do-not-override-2i2tap).ant-table-wrapper .ant-table-column-sorters::after {
+    background-color: var(--hover-effect);
+}
+
+.anticon.anticon-caret-up.ant-table-column-sorter-up {
+    color: var(--color);
+    fill: var(--color);
+    background-color: var(--color);
+}
+
+.ant-breadcrumb.css-dev-only-do-not-override-2i2tap li,
+.ant-breadcrumb.css-dev-only-do-not-override-2i2tap a {
+    color: var(--color);
+}
+
+:where(.css-dev-only-do-not-override-2i2tap).ant-card .ant-card-head,
+:where(.css-dev-only-do-not-override-2i2tap).ant-card .ant-card-body {
+    background-color: var(--hover-effect);
+    color: var(--color);
+}
+
+.ant-dropdown-trigger.ant-dropdown-open {
+    background-color: var(--hover-effect);
+    color: var(--color);
+}
+
+
+body {
+    background-color: var(--background-color);
+}

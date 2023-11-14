@@ -1,0 +1,26 @@
+.sideBarWrapperHoc {
+    margin-left: var(--width-sidebar);
+    padding: 20px;
+    height: 100vh;
+}
+
+.inSideBarWrapperHoc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pageNavigationWrapperHoc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.buttonCardWrapperHoc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
